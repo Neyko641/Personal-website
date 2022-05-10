@@ -17,6 +17,9 @@ body {
 }
 .wrapper {
   display: inline-flex;
+  position:fixed;
+  top: 0;
+  
 }
 .wrapper .static-txt {
   color: limegreen;
