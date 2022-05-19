@@ -8,10 +8,11 @@
   box-sizing: border-box;
   font-family: Hacked;
 }
-
 body {
   display: flex;
   align-items: center;
+  width: 85%;
+  min-height: 100vh;
   justify-content: center;
   background: black;
 }
@@ -19,7 +20,6 @@ body {
   display: inline-flex;
   position:fixed;
   top: 0;
-  
 }
 .wrapper .static-txt {
   color: limegreen;
